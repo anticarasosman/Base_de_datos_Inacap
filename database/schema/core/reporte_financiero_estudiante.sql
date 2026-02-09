@@ -10,6 +10,9 @@ CREATE TABLE Reporte_financiero_estudiante (
     deuda_colegiaturas INT,
     otras_deudas INT,
     deuda_total INT,
+    
+    monto_compromiso_matricula INT,
+    monto_compromiso_colegiaturas INT,
 
     fecha_generacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
